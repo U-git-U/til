@@ -30,9 +30,9 @@ ty!
 - 正規表現のパターン検索でマッチした情報を取得、マッチなしだとnull
 	`String.prototype.match();`
 	
-	`String.prototype.match(/g);
+	`String.prototype.match(/g);`
 	
-	   		  matchAll`
+	   		 `matchAll`
 			
 	`RegExp.prototype.exec`
 	
