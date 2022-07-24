@@ -29,9 +29,13 @@ ty!
 
 - 正規表現のパターン検索でマッチした情報を取得、マッチなしだとnull
 	`String.prototype.match();`
+	
 	`String.prototype.match(/g);
-			matchAll`
+	
+	   		  matchAll`
+			
 	`RegExp.prototype.exec`
+	
 
 	- 正規表現の()で囲んだ部分「キャプチャリング」範囲だけ取り出すことも可能
 
@@ -43,7 +47,9 @@ ty!
 
 - 正規表現のgフラグを使って繰り返し処理を短くシンプルに実装できそう
 	`const str = "にわにはにわにわとりがいる";`
+	
 	`console.log(str.replace("にわ", "niwa")); // => "niwaにはにわにわとりがいる"`
+	
 	`console.log(str.replace(/にわ/g, "niwa")); // => "niwaにはniwaniwaとりがいる"`
 
 
